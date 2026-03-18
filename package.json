@@ -11,16 +11,7 @@
       "url": "https://github.com/WerdoxDev/application-loopback"
    },
    "license": "MIT",
-   "scripts": {
-      "build": "tsdown",
-      "prepublish": "bun run build"
-   },
-   "devDependencies": {
-      "@biomejs/biome": "2.0.2",
-      "@types/bun": "latest",
-      "chalk": "^5.4.1",
-      "tsdown": "^0.12.9"
-   },
+   "scripts": {},
    "type": "module",
    "main": "dist/index.cjs",
    "module": "dist/index.js",
@@ -29,9 +20,6 @@
       "bin/**/*",
       "dist/**/*"
    ],
-   "peerDependencies": {
-      "typescript": "^5"
-   },
    "keywords": [
       "audio",
       "audio-capture",
